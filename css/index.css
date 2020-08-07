@@ -137,8 +137,48 @@ ul{
 /*---------------- Projects -----------------*/
 .banner-home{
     border-radius: 1em;
-    margin: 1em 0;
+    margin: 1em 0;   
 }
+
+
+.project-title {
+    position: relative;
+    width: 100%;
+}
+
+.project-title img{
+    vertical-align: super;
+}
+
+.project-title h6{
+    display: none;
+}
+
+.project-title:hover > h6{
+    display: block;
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+    
+    padding-top: 4em;
+    padding-bottom: 1.5em;
+    padding-left: 1em;
+    
+    margin-bottom: 0.6em;
+    border-radius: 0 0 1em 1em;
+
+    background: linear-gradient(0deg, rgba(0,0,0,0.60) 0%, rgba(0,0,0,0) 100%);
+    color: white;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-title span{
+    padding-right: 1em;
+    font-weight: 400;
+}
+
 
 
 /*---------------- Chat -----------------*/
