@@ -123,6 +123,46 @@ ul{
 
 
 
+.pdg-right{
+    padding-right: 0.5em;
+}
+
+.pdg-left{
+    padding-left: 0.5em;
+}
+
+.message a{
+    background-color: #5E89B5;
+    border-radius: 0.6em;
+    color: white;
+    fill: white;
+    
+    display: inline-block;
+    padding-right: 0.7em;
+    
+    font-size: 0.9em;
+    width: 100%;
+    text-decoration: none;
+    
+    transition: 0.2s;
+}
+
+.message a:hover{
+    background-color: white;
+    border: 2px solid #5E89B5;
+    color: #5E89B5
+}
+
+.message a:hover > svg{
+    fill: #5E89B5;
+    margin: 0.56em;
+}
+
+.message a svg{
+    margin: 0.7em;
+}
+
+
 
 /*---------------- Footer -----------------*/
 .txt-right{
@@ -149,4 +189,11 @@ footer p{
 .heart{
     fill: #B55E5E;
     width: 1.2em;
+    
+    transition: 0.2s;
+}
+
+.heart:hover{
+    width: 2em;
+    fill: #d61a1a;
 }
