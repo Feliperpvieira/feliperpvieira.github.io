@@ -1,9 +1,11 @@
-.bg-blue-color{
-    background-color: #5E89B5;
-}
-
 main{
     font-family: 'Montserrat', sans-serif;
+}
+
+
+/*---------------- Header -----------------*/
+.bg-blue-color{
+    background-color: #5E89B5;
 }
 
 h1{
@@ -92,14 +94,14 @@ ul{
 }
 
 .social-links li:hover{
-    /*background-color: #5E89B5;*/
+    background-color: #5E89B5;
     -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.5); /*--- \/ drop-shadow -----*/
     -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 
 .social-links li:hover > svg{
-   /* fill: white;*/
+    fill: white;
     
 }
 
@@ -117,4 +119,34 @@ ul{
         margin-left: 1.1em;
     }
 
+}
+
+
+
+
+/*---------------- Footer -----------------*/
+.txt-right{
+    text-align: right;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+    
+    margin-bottom: 1em;
+}
+
+footer p{
+    color: white;
+}
+
+.heart{
+    fill: #B55E5E;
+    width: 1.2em;
 }
