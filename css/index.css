@@ -46,6 +46,14 @@ h1{
     transform-origin: bottom;
     background-color: hsl(224, 0%, 100%, 0.25);
 }
+
+.resume .blue-link{   /*--- Change "e-mail" color on chat -----*/
+    color: #5E89B5;;
+}
+
+.resume .blue-link::after{
+    background-color: hsl(210, 48%, 71%, 0.25); /*--- Change mouse over color on "e-mail" -----*/
+}
   
 .resume a:hover::after {
     transform: scaleY(1);
@@ -54,6 +62,10 @@ h1{
 
 .drop-shadow-grey{              /*--- Generic grey shadow for text -----*/
     text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.drop-shadow-blue{              /*--- Same shadow but blue -----*/
+    text-shadow: 0px 5px 10px rgba(94, 137, 181, 0.25);
 }
 
 /*--- \/\/ Spacing between social links -----*/
@@ -123,6 +135,18 @@ ul{
 
 
 
+/*---------------- Chat -----------------*/
+h3{
+    font-weight: 500;
+    font-size: 2.25em;
+    color: #5E89B5;
+}
+
+.chat h5{
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
 .pdg-right{
     padding-right: 0.5em;
 }
@@ -131,15 +155,17 @@ ul{
     padding-left: 0.5em;
 }
 
+.message{
+    margin-bottom: 1em;
+}
+
 .message a{
     background-color: #5E89B5;
     border-radius: 0.6em;
     color: white;
     fill: white;
     
-    display: inline-block;
-    padding-right: 0.7em;
-    
+    display: inline-block;    
     font-size: 0.9em;
     width: 100%;
     text-decoration: none;
@@ -156,10 +182,12 @@ ul{
 .message a:hover > svg{
     fill: #5E89B5;
     margin: 0.56em;
+    margin-left: 0;
 }
 
 .message a svg{
     margin: 0.7em;
+    margin-left: 0;
 }
 
 
