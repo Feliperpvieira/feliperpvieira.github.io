@@ -1,0 +1,22 @@
+/*---------------- Projects header -----------------*/
+.social-links > a{
+    margin-top: 0;
+}
+
+.first-line{
+    padding-bottom: 0;
+}
+
+.home-text{
+    padding-left: 1em;
+    padding-right: 0.5em;
+    vertical-align: middle;
+    
+    font-weight: 500;
+    color: #5E89B5;
+    transition: .2s;
+}
+
+.social-links li:hover > .home-text{
+    color: white;
+}
