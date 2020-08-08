@@ -132,6 +132,14 @@ ul{
 
 }
 
+.top-divider{             /*--- \/ Fixes white line on iOS -----*/
+    margin-top: -1px;
+}
+
+.bottom-divider{
+    margin-bottom: -1px;
+}
+
 
 /*---------------- Projects -----------------*/
 .banner-home{
