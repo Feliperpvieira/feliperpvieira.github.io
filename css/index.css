@@ -2,7 +2,6 @@ main{
     font-family: 'Montserrat', sans-serif;
 }
 
-
 /*---------------- Header -----------------*/
 .bg-blue-color{
     background-color: #5E89B5;
@@ -151,11 +150,6 @@ ul{
 }
 
 .project-title h6{
-    display: none;
-}
-
-.project-title:hover > h6{
-    display: block;
     position: absolute;
     bottom: 1em;
     width: 100%;
@@ -167,17 +161,28 @@ ul{
     margin-bottom: 0.6em;
     border-radius: 0 0 1em 1em;
 
-    background: linear-gradient(0deg, rgba(0,0,0,0.60) 0%, rgba(0,0,0,0) 100%);
-    color: white;
+    background: linear-gradient(0deg, rgba(0,0,0,0.30) 0%, rgba(0,0,0,0) 100%);
+    color: rgba(255, 255, 255, 0);
     
     display: flex;
     justify-content: space-between;
+    
+    transition: .3s;
 }
 
 .project-title span{
     padding-right: 1em;
     font-weight: 400;
+    color: white;
 }
+
+.project-title:hover > h6{
+    color: rgba(255, 255, 255, 1);
+    background: linear-gradient(0deg, rgba(0,0,0,0.60) 0%, rgba(0,0,0,0) 100%);
+    
+}
+
+
 
 
 
