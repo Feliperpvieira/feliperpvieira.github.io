@@ -99,6 +99,11 @@
     .header-text p{
         width: 85%;
     }
+    
+    .pap-steps img{
+        height: 9em;
+    }
+    
 }
 
 @media (max-width: 768px){
