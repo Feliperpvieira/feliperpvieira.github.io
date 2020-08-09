@@ -15,10 +15,6 @@
     color: white;
 }
 
-.header-text{
-    vertical-align: bottom;
-}
-
 .header-text div{         /*-- Vertical Center for divs --*/
     margin: auto;
 }
@@ -56,6 +52,25 @@
 }
 
 
+.pap-steps{
+    margin: 5em 0;
+    text-align: center;
+}
+
+.pap-steps img{
+    height: 13em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pap-steps h4{
+    margin-top: 1em;
+}
+
+.mobile-margin{
+    margin-bottom: 2em;
+}
 
 /*---------------- Mobile adjustments -----------------*/
 @media (min-width: 991px){
@@ -93,7 +108,15 @@
     }
     
     .margin-divider{
-        margin: 0;
+        margin: 1em 0;
+    }
+    
+    .pap-steps{
+        margin: 2em 0;
+        text-align: left;
+    }
+    
+    .pap-steps img{
+        height: auto;
+    }
 }
-}
-
