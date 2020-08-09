@@ -72,6 +72,18 @@
     margin-bottom: 2em;
 }
 
+.videos .col-6{
+    padding: 0;
+}
+
+.character-footer{
+    width: 30%;
+
+    
+    margin-top: 3em;
+}
+
+
 /*---------------- Mobile adjustments -----------------*/
 @media (min-width: 991px){
     .project-logo{
@@ -119,4 +131,10 @@
     .pap-steps img{
         height: auto;
     }
+    
+    .character-footer{
+    width: 50%;
+    margin-top: 2em;
+}
+
 }
