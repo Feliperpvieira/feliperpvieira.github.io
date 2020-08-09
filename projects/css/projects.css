@@ -29,11 +29,11 @@ h1{
 }
 
 .subtitle{
-    margin-top: -0.3em;
+    margin-top: -0.1em;
     margin-bottom: 2em;
 }
 
-h6{
+h6{                 /*--- Credits ---*/
     margin-top: 2em;
     font-style: italic;
 }

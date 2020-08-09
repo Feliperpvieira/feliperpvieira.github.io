@@ -1,0 +1,99 @@
+/*---------------- Header -----------------*/
+.project-header{
+    background-color: #E73E38;  /*-- Sets red as background --*/
+}
+
+.project-logo{          /*-- Logo size --*/
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em 0;
+}
+
+.txt-white{             /*-- White font on red background --*/
+    color: white;
+}
+
+.header-text{
+    vertical-align: bottom;
+}
+
+.header-text div{         /*-- Vertical Center for divs --*/
+    margin: auto;
+}
+
+.header-text h4{        /*-- Horizontal center for texts \/\/\/ --*/
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-text p{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-text img{       /*-- Horizontal center for img --*/
+    width: 75%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*---------------- Pics row -----------------*/
+.pics-row img{          /*-- Padding for img row --*/
+    padding-bottom: 1.5em;
+}
+
+.margin-divider{        /*-- Margin top and bottom for rows --*/
+    margin: 3em 0;
+}
+
+
+
+/*---------------- Mobile adjustments -----------------*/
+@media (min-width: 991px){
+    .project-logo{
+        padding-top: 4em;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 991px){
+    .header-text h4{
+        width: 85%;
+    }
+    .header-text p{
+        width: 85%;
+    }
+}
+
+@media (max-width: 768px){
+    .project-logo{
+        width: 75%;
+        padding-bottom: 1.5em;
+    }
+    
+    .header-text h4{
+        width: 80%;
+    }
+    .header-text p{
+        width: 80%;
+    }
+    
+    .header-text img{
+        width: 70%;
+        padding-bottom: 2em;
+    }
+    
+    .margin-divider{
+        margin: 0;
+}
+}
+
