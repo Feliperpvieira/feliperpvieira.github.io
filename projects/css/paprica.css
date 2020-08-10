@@ -51,6 +51,35 @@
     margin: 3em 0;
 }
 
+.gif-text div{
+    margin: auto;
+}
+
+.gif-text h4{        /*-- Horizontal center for texts \/\/\/ --*/
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gif-text p{
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gif-text img{
+    width: 75%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
 
 .pap-steps{
     margin: 5em 0;
@@ -100,6 +129,14 @@
         width: 85%;
     }
     
+    .gif-text h4{   
+        width: 100%;
+    }
+
+    .gif-text p{
+        width: 100%;
+    }
+    
     .pap-steps img{
         height: 9em;
     }
@@ -128,8 +165,16 @@
         margin: 1em 0;
     }
     
+    .gif-text h4{   
+        width: 100%;
+    }
+
+    .gif-text p{
+        width: 100%;
+    }
+    
     .pap-steps{
-        margin: 2em 0;
+        margin: 4em 0;
         text-align: left;
     }
     
