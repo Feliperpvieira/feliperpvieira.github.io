@@ -97,9 +97,7 @@
     margin-top: 1em;
 }
 
-.mobile-margin{
-    margin-bottom: 2em;
-}
+
 
 .videos .col-6{
     padding: 0;
@@ -175,16 +173,23 @@
     
     .pap-steps{
         margin: 4em 0;
-        text-align: left;
     }
     
     .pap-steps img{
-        height: auto;
+        width: 70%;
+    }
+    
+    .mobile-margin{
+        margin-bottom: 4em;
+    }
+    
+    .mobile-s-margin{
+        margin-bottom: 2em;
     }
     
     .character-footer{
-    width: 50%;
-    margin-top: 2em;
-}
+        width: 50%;
+        margin-top: 3em;
+    }
 
 }
