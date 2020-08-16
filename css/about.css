@@ -17,7 +17,10 @@ h3{
     font-style: normal;
     font-size: 2.5em;
     margin: 0;
-    
+    margin-bottom: 0.5em;
+}
+
+.width70{
     width: 70%;
 }
 
@@ -50,6 +53,38 @@ h4{
     font-weight: 600;
 }
 
+.btn{
+    border-radius: 0;
+    border: none;
+}
+
+.btn-primary{
+    background-color: white;
+    color: #5e89b5;
+    border: 2px solid #5e89b5;
+}
+
+.btn-primary:hover{
+    background-color: #5e89b5;
+    color: white;
+    border: 2px solid #5e89b5;
+}
+
+h5{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.social-resume{
+    justify-content: flex-start;
+    margin-bottom: 2em;
+}
+
+.social-resume > a{
+    margin-left: 0;
+    margin-right: 2em;
+}
+
 
 
 @media (max-width: 768px){
@@ -61,6 +96,9 @@ h4{
     
     h3{
         font-size: 1.5em;
+    }
+    
+    .width70{
         width: 100%;
     }
     

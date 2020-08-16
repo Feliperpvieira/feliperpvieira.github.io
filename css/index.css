@@ -266,6 +266,10 @@ h3{
     text-align: center;
 }
 
+.txt-left{
+    text-align: left;
+}
+
 h2{
     font-size: 3em;
     font-weight: 600;
