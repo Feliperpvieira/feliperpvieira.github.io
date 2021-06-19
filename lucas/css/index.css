@@ -1,0 +1,96 @@
+main{ /*define a fonte como PT Mono na página toda*/
+    font-family: 'PT Mono', monospace;
+    text-transform: uppercase;
+}
+
+/*---------------- CABEÇALHO ----------------*/
+.fundo-menu{ /*fundo colorido do cabeçalho*/
+    background: linear-gradient(270deg, #6485C3 0%, #5FC7D6 29.69%, #5FC7D6 70.31%, #73C59D 100%);
+}
+
+.navbar{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.titulo{
+    font-weight: 600;
+}
+
+.monograma{
+    margin-left: 2.4em; /*Gambiarra pra tentar deixar o L centralizado na tela*/
+    margin-right: 0;
+}
+
+.menu li a{
+    background-color: white;
+    border-radius: 1em;
+    text-align: center;
+    margin-top: 1em;
+    height: 42px;
+}
+
+.navbar-nav{
+    margin-top: 1.5em;
+}
+
+@media (min-width: 992px) {
+    .menu li a{
+        margin-left: 1em;
+        margin-top: 0;
+        width: 120px;
+    }
+
+    .navbar-nav{
+        margin-top: 0;
+    }
+
+    .navbar-collapse{
+        margin-left: auto;
+        flex: initial;
+        margin-right: 2em;
+    }
+}
+
+/*Edição do botão toggler do menu responsivo*/
+.navbar-toggler{
+    background-color: white;
+    border-radius: 1em;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-toggler img{
+    margin: 0.3em 0;
+}
+/*Fim do toggler*/
+
+.botoes-janela{
+    display: flex;
+    list-style-type: none;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.botoes-janela button{
+    border: none;
+    background-color: white;
+    height: 24px;
+    width: 24px;
+    border-radius: 100%;
+    margin-left: 0.8em;
+}
+
+.grid-projetos div{
+    padding: 0%;
+    margin: 0;
+}
+
+.imagem-grid{
+    height: 50px;
+    overflow: hidden;
+}
