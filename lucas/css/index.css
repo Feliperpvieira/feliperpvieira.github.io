@@ -22,7 +22,7 @@ main{ /*define a fonte como PT Mono na página toda*/
     margin-right: 0;
 }
 
-.menu li a{
+.menu li a{ /* botões do menu principal */
     background-color: white;
     border-radius: 1em;
     text-align: center;
@@ -30,12 +30,13 @@ main{ /*define a fonte como PT Mono na página toda*/
     height: 42px;
 }
 
-.navbar-nav{
+.navbar-nav{ 
     margin-top: 1.5em;
 }
 
 @media (min-width: 992px) {
-    .menu li a{
+    /* adiciona espaçamento adequado nos botões em telas maiores que 992px */
+    .menu li a{ 
         margin-left: 1em;
         margin-top: 0;
         width: 120px;
@@ -45,7 +46,7 @@ main{ /*define a fonte como PT Mono na página toda*/
         margin-top: 0;
     }
 
-    .navbar-collapse{
+    .navbar-collapse{ /* passa os botões pra direita da tela */
         margin-left: auto;
         flex: initial;
         margin-right: 2em;
@@ -67,7 +68,7 @@ main{ /*define a fonte como PT Mono na página toda*/
 }
 /*Fim do toggler*/
 
-.botoes-janela{
+.botoes-janela{ /* display flex nos botoes de janela do canto superior direito */
     display: flex;
     list-style-type: none;
     
@@ -76,7 +77,7 @@ main{ /*define a fonte como PT Mono na página toda*/
     padding-left: 0;
 }
 
-.botoes-janela button{
+.botoes-janela button{ /* tamanho dos botões de janela */
     border: none;
     background-color: white;
     height: 24px;
@@ -85,12 +86,92 @@ main{ /*define a fonte como PT Mono na página toda*/
     margin-left: 0.8em;
 }
 
-.grid-projetos div{
-    padding: 0%;
-    margin: 0;
+
+/*---------------- GRID DE PROJETOS ----------------*/
+.grid-capas{ /* torna o grid responsivo */
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 }
 
-.imagem-grid{
-    height: 50px;
+.grid-capas .card{ /* configura o tamanho de cada card dentro do grid */
+    height: 300px;
     overflow: hidden;
+    position: relative; /* usado para centralizar a foto logo abaixo */
+    border: none;
+    border-radius: 0;
+}
+
+.grid-capas .card img{
+    width: 100%;
+    position: absolute; /* centraliza a foto */
+    top:-100%; left:0; right: 0; bottom:-100%;
+    margin: auto;
+
+}
+
+.card-hover h2{
+    font-weight: 700;
+}
+
+.card .card-hover{ /*  */
+    /* faz o texto do hover ficar no centro sobre a foto */
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Coisas para animar no hover */
+    color: rgba(0, 0, 0, 0); /* fonte com transparencia 0, vai crescer até 1 no hover */
+    width: 50%; /* tamanho horizontal, vai dar sensação de que cresce na animação */
+    padding: 0 10px; /* height não funciona, entao o padding vai ocupar tudo na vertical */
+    transition: .2s; /* tempo da animação */
+}
+
+.card:hover .card-hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(95, 199, 214, 0.8);;
+    width: 100%;
+    padding: 150px 0;
+}
+
+@media (max-width: 992px) { 
+    /* reduz altura dos cards em telas menores que 992px */
+    .grid-capas .card{
+        height: 250px;
+    }
+}
+
+
+/*---------------- FOOTER ----------------*/
+footer{
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+    display: flex;
+}
+
+.monograma-footer{
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(227.83deg, #6485C3 0%, #5FC7D6 29.69%, #5FC7D6 70.31%, #73C59D 100%);
+    border-radius: 30px 30px 30px 0px;
+}
+
+.monograma-footer img{
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding-top: 22px;
+}
+
+.nome-footer{
+    text-align: center;
+    margin-left: 35px;
+    padding-top: 5px;
+}
+
+.nome-footer h3{
+    font-size: 36px;
+    font-weight: 600;
 }
