@@ -59,8 +59,20 @@ main{ /*define a fonte como PT Mono na página toda*/
     border-radius: 1em;
 }
 
+.navbar-toggler svg{
+    width: 0.89em;
+    height: 0.89em;
+    margin-top: 0.15em;
+}
+
 .navbar-toggler:focus{
-    box-shadow: none;
+    box-shadow: inset 0 0px 0px 3rem; /* fundo preto que aparece ao clicar no menu hamburer */
+    fill: white; /* cor do svg */
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0 / 100%);
+    border-color: rgb(0 0 0 / 25%);
 }
 
 .navbar-toggler img{
