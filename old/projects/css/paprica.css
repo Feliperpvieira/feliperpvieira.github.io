@@ -1,0 +1,195 @@
+/*---------------- Header -----------------*/
+.project-header{
+    background-color: #E73E38;  /*-- Sets red as background --*/
+}
+
+.project-logo{          /*-- Logo size --*/
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em 0;
+}
+
+.txt-white{             /*-- White font on red background --*/
+    color: white;
+}
+
+.header-text div{         /*-- Vertical Center for divs --*/
+    margin: auto;
+}
+
+.header-text h4{        /*-- Horizontal center for texts \/\/\/ --*/
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-text p{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-text img{       /*-- Horizontal center for img --*/
+    width: 75%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*---------------- Pics row -----------------*/
+.pics-row img{          /*-- Padding for img row --*/
+    padding-bottom: 1.5em;
+}
+
+.margin-divider{        /*-- Margin top and bottom for rows --*/
+    margin: 3em 0;
+}
+
+.gif-text div{
+    margin: auto;
+}
+
+.gif-text h4{        /*-- Horizontal center for texts \/\/\/ --*/
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gif-text p{
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gif-text img{
+    width: 75%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+.pap-steps{
+    margin: 5em 0;
+    text-align: center;
+}
+
+.pap-steps img{
+    height: 13em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pap-steps h4{
+    margin-top: 1em;
+}
+
+
+
+.videos .col-6{
+    padding: 0;
+}
+
+.character-footer{
+    width: 30%;
+
+    
+    margin-top: 3em;
+}
+
+
+/*---------------- Mobile adjustments -----------------*/
+@media (min-width: 991px){
+    .project-logo{
+        padding-top: 4em;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .header-text h4{
+        width: 85%;
+    }
+    .header-text p{
+        width: 85%;
+    }
+    
+    .gif-text h4{   
+        width: 100%;
+    }
+
+    .gif-text p{
+        width: 100%;
+    }
+    
+    .pap-steps img{
+        height: 7em;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .project-logo{
+        width: 75%;
+        padding-bottom: 1.5em;
+    }
+    
+    .header-text h4{
+        width: 80%;
+    }
+    .header-text p{
+        width: 80%;
+    }
+    
+    .header-text img{
+        width: 70%;
+        padding-bottom: 2em;
+    }
+    
+    .margin-divider{
+        margin: 1em 0;
+    }
+    
+    .gif-text h4{   
+        width: 100%;
+    }
+
+    .gif-text p{
+        width: 100%;
+    }
+    
+    .pap-steps{
+        margin: 4em 0;
+    }
+    
+    .pap-steps img{
+        height: 13em;
+    }
+    
+    .mobile-margin{
+        margin-bottom: 4em;
+    }
+    
+    .mobile-s-margin{
+        margin-bottom: 2em;
+    }
+    
+    .character-footer{
+        width: 50%;
+        margin-top: 3em;
+    }
+
+}
