@@ -53,6 +53,7 @@ a{
 /* Header */
 header{
     background: linear-gradient(280.12deg, #F5F5F5 41.12%, #FFFFFF 100.31%);
+    overflow: hidden;
 }
 
 header > div{
@@ -86,7 +87,7 @@ nav img{
 }
 
 header h2{
-    width: 75%;
+    width: 65%;
 }
 
 /* Main content and footer width */
@@ -249,6 +250,8 @@ footer section{
         height: 100%;
         max-width: 500px;
         margin-top: 1rem;
+        margin-left: auto;
+        margin-right: -5rem;
     }
 
     /* About in column, icons + txt under paragraph */
@@ -269,4 +272,21 @@ footer section{
     .about div ul li p{
         width: 100%;
     }
+}
+
+/* Tablets and medium screens */
+@media screen and (min-width: 760px) and (max-width: 1300px){
+    /* Font sizes */
+    h1{
+        font-size: 7.5rem;
+    }
+    
+    h2{
+        font-size: 1.25rem;
+    }
+
+    header h2{
+        width: 95%;
+    }
+
 }
