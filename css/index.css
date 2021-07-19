@@ -100,13 +100,44 @@ main, footer section{
 .section-title{
     margin-top: 3.75rem;
     text-decoration: none;
-    border-bottom: 1px solid var(--grey);
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 0;
     margin-bottom: 1.375rem;
+    text-transform: uppercase;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    /* Hover effect - grows line from bottom to full line-height */
+    background-position-y: -0%;
+    background-image: linear-gradient( var(--white) 50%, var(--blue-dark) 50%);
+    transition: background 250ms ease, padding 350ms ease;
+    background-size: 2px;
+    background-size: auto 190%;
+}
+
+.section-title:hover {
+    background-position-y: 100%;
+    padding: 0.5rem 0.5rem;
+}
+
+/* Changes text color */
+.section-title > h4 {
+    transition: color 350ms ease;
+}
+
+.section-title:hover > h4 {
+    color: white;
+}
+
+/* Changes arrow fill color */
+.section-title svg > path{
+    fill: var(--blue-dark);
+    transition: fill 350ms ease;
+}
+
+.section-title:hover svg > path{
+    fill: var(--white);
 }
 
 /* About */
