@@ -180,14 +180,14 @@ main, footer section{
 }
 
 /*---------------- PROJECTS GRID ----------------*/
-.grid-capas{ /* Grid structure */
+.grid-cover{ /* Grid structure */
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(46%, 1fr));
     column-gap: 3.25rem;
     row-gap: 2.75rem;
 }
 
-.grid-capas .card{ /* Cards size */
+.grid-cover .card{ /* Cards size */
     height: 320px;
     overflow: hidden;
     position: relative; /* used to center img */
@@ -195,7 +195,7 @@ main, footer section{
     border-radius: 0;
 }
 
-.grid-capas .card img{
+.grid-cover .card img{
     width: 100%;
     position: absolute; /* img centered */
     top:-100%; left:0; right: 0; bottom:-100%;
@@ -213,7 +213,7 @@ main, footer section{
     /* Hover animations */
     width: 50%; /* horizontal size, is going to grow on hover */
     padding: 0 10px; /* height doesn't work, padding is going to make the height grow on hover */
-    transition: .2s; /* transition duration */
+    transition: 300ms ease; /* transition duration */
 }
 
 .card .card-hover h3{
@@ -223,12 +223,12 @@ main, footer section{
     font-weight: 600;
 
     color: rgba(0, 0, 0, 0); /* transparency 0, it's going to be visible only on hover */
-    transition: .2s; 
+    transition: 200ms; 
 }
 
 .card:hover .card-hover{
     color: rgb(255, 255, 255);
-    background-color: rgba(35, 140, 189, 0.4);
+    background-color: rgba(35, 140, 189, 0.3);
     width: 100%;
     padding: 150px 0;
 }
@@ -240,7 +240,7 @@ main, footer section{
 
 @media screen and (max-width: 760px) { 
     /* smaller height in cards in screens under 992px */
-    .grid-capas .card{
+    .grid-cover .card{
         height: 250px;
     }
 }
