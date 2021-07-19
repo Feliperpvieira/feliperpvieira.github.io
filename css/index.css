@@ -47,7 +47,18 @@ p{
 }
 
 a{
-    color: var(--blue-dark);
+    text-decoration: none;
+    color: var(--grey);
+    background-position-y: -0%;
+    background-image: linear-gradient( rgba(255, 255, 255, 0) 50%, var(--blue-dark) 50%);
+    transition: background 250ms ease, color 350ms ease;
+    background-size: 2px;
+    background-size: auto 180%;
+}
+
+a:hover {
+    color: var(--white);
+    background-position-y: 100%;
 }
 
 /* Header */
@@ -98,7 +109,7 @@ main, footer section{
 
 /* Sections title */
 .section-title{
-    margin-top: 3.75rem;
+    margin-top: 3.25rem;
     text-decoration: none;
     padding: 0.5rem 0;
     margin-bottom: 1.375rem;
@@ -113,7 +124,7 @@ main, footer section{
     background-image: linear-gradient( var(--white) 50%, var(--blue-dark) 50%);
     transition: background 250ms ease, padding 350ms ease;
     background-size: 2px;
-    background-size: auto 190%;
+    background-size: auto 193%;
 }
 
 .section-title:hover {
