@@ -9,7 +9,7 @@ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,ifr
     --grey: #757575;
     --off-white: #F6F6F6;
     --white: #FFFFFF;
-  }
+}
 
 /* Fonts */
 body{
@@ -46,17 +46,17 @@ p{
     line-height: 1.75rem;
 }
 
-a{
+.underline-link{
     text-decoration: none;
     color: var(--grey);
     background-position-y: -0%;
     background-image: linear-gradient( rgba(255, 255, 255, 0) 50%, var(--blue-dark) 50%);
-    transition: background 250ms ease, color 350ms ease;
+    transition: background 200ms ease, color 300ms ease;
     background-size: 2px;
     background-size: auto 180%;
 }
 
-a:hover {
+.underline-link:hover {
     color: var(--white);
     background-position-y: 100%;
 }
@@ -230,7 +230,7 @@ main, footer section{
     color: rgb(255, 255, 255);
     background-color: rgba(35, 140, 189, 0.3);
     width: 100%;
-    padding: 150px 0;
+    padding: 180px 0;
 }
 
 .card:hover .card-hover h3{
@@ -250,7 +250,7 @@ main, footer section{
 /* Footer width is set together with the main tag */
 footer{
     background-color: var(--off-white);
-    margin-top: 8rem;
+    margin-top: 7rem;
 }
 
 footer img{
