@@ -57,7 +57,7 @@ nav{
 
 /* Cards summary */
 .cards-summary{
-    margin: 5.5rem 2rem;
+    margin: 5.5rem 1rem;
 }
 
 .cards-summary div{
@@ -71,11 +71,11 @@ nav{
 }
 
 .card-bottom{
-    margin-top: -34rem;
+    margin-top: -40rem;
 }
 
 .card-bottom div{
-    padding-bottom: 6rem;
+    padding-bottom: 1.5rem;
 }
 
 .cards-summary div div{
