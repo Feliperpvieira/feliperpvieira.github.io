@@ -53,6 +53,8 @@ nav{
 .project-bio img{
     margin: 5rem;
     margin-left: 0;
+    width: 45%;
+    max-width: 377px;
 }
 
 /* Cards summary */
@@ -218,4 +220,61 @@ nav{
     margin-top: 0.8rem;
     margin-bottom: 5.5rem;
     text-align: center;
+}
+
+
+/* Mobile */
+@media screen and (max-width: 760px) { 
+    /* Project logo and minibio */
+    .project-bio{
+        flex-direction: column;
+    }
+
+    .project-bio img{
+        margin: 3rem 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .project-bio p{
+        margin-bottom: 3rem;
+    }
+
+    /* Cards summary */
+    .cards-summary{
+        margin: 5.5rem 1rem;
+    }
+
+    .cards-summary img{
+        width: 100%;
+    }
+
+    .cards-summary div{
+        flex-direction: column;
+    }
+
+    /* Vaccine Summary */
+    .vaccine-summary{
+        flex-direction: column;
+    }
+
+    /* People tokens */
+    .people-tokens > div{
+        flex-direction: column;
+    }
+
+    /* Teams */
+    .teams > div{
+        flex-direction: column;
+    }
+
+    .teams h2, .teams p{
+        margin: 0;
+    }
+}
+
+/* Tablets and medium screens */
+@media screen and (min-width: 760px) and (max-width: 1300px){
+
+
 }
