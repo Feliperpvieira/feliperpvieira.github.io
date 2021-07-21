@@ -19,44 +19,6 @@ main p{
     line-height: 1.75rem;
 }
 
-/* Margin between nav and cover img */
-nav{
-    margin-bottom: 1rem;
-}
-
-/* Cover image */
-.header-cover{
-    display: block; 
-    width: 100%;
-    height: 40vh;
-    overflow: hidden;
-    position: relative; /* used to center img */
-    border: none;
-    border-radius: 0;
-}
-
-.header-cover img{
-    width: 100%;
-    position: absolute; /* img centered */
-    top:-100%; left:0; right: 0; bottom:-100%;
-    margin: auto;
-}
-
-/* Project logo and minibio */
-.project-bio{
-    /*margin: 0 5rem;*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.project-bio img{
-    margin: 5rem;
-    margin-left: 0;
-    width: 45%;
-    max-width: 377px;
-}
-
 /* Cards summary */
 .cards-summary{
     margin: 5.5rem 1rem;
@@ -114,6 +76,10 @@ nav{
     justify-content: space-between;
 }
 
+.vaccine-summary > div{
+    margin-bottom: 4.5rem;
+}
+
 .big-title{
     font-size: 3rem;
     font-weight: 700;
@@ -139,8 +105,7 @@ nav{
     line-height: 1.75;
 }
 
-.people-tokens{
-    margin-top: 4.5rem;
+.people-tokens div div{
     margin-bottom: 8rem;
 }
 
@@ -174,13 +139,13 @@ nav{
 }
 
 /* Teams */
-.teams{
-    margin-top: 2.5rem;
-}
-
 .teams > div{
     display: flex;
     justify-content: center;
+}
+
+.teams div div{
+    margin-top: 2.5rem;
 }
 
 .teams .big-title{
@@ -224,20 +189,21 @@ nav{
 
 
 /* Mobile */
-@media screen and (max-width: 760px) { 
-    /* Project logo and minibio */
-    .project-bio{
-        flex-direction: column;
+@media screen and (max-width: 760px) {
+    /* General */
+    .big-title{
+        font-size: 2rem;
     }
 
-    .project-bio img{
-        margin: 3rem 0;
-        width: 100%;
-        max-width: 100%;
+    .p-merriweather{
+        font-size: 1.25rem;
+        line-height: 1.5rem;
     }
 
-    .project-bio p{
-        margin-bottom: 3rem;
+    .subtitle{
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin-bottom: 3.5rem;
     }
 
     /* Cards summary */
@@ -249,8 +215,37 @@ nav{
         width: 100%;
     }
 
-    .cards-summary div{
+    .cards-summary > div{
         flex-direction: column;
+    }
+
+    .order-m1{
+        order: 1;
+    }
+
+    .order-m2{
+        order: 2;
+    }
+
+    .card-bottom{
+        margin-top: 5rem;
+    }
+
+    .cards-summary div div{
+        margin-bottom: 1.5rem;
+    }
+
+    .cards-summary h2{
+        font-size: 3.5rem;
+        margin-right: 2rem;
+    }
+    
+    .card-bottom h2{
+        margin-left: 0;
+    }
+    
+    .cards-summary h4{
+        font-size: 1.5rem;
     }
 
     /* Vaccine Summary */
@@ -258,14 +253,35 @@ nav{
         flex-direction: column;
     }
 
+    .vaccine-summary > div{
+        margin-bottom: 3rem;
+    }
+
     /* People tokens */
     .people-tokens > div{
         flex-direction: column;
     }
 
+    .people-tokens div div{
+        margin-bottom: 3rem;
+    }  
+
+    .people-tokens img{
+        width: 100px;
+        height: auto;
+    }
+
     /* Teams */
     .teams > div{
         flex-direction: column;
+    }
+
+    .teams .right{
+        margin-bottom: 3rem;
+    }
+
+    .teams img{
+        width: 75%;
     }
 
     .teams h2, .teams p{
