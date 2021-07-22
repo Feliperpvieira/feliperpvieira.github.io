@@ -94,6 +94,7 @@ nav ul{
     display: flex;
     font-family: 'JetBrains Mono', monospace;
     font-size: 1.5em;
+    font-weight: 400;
     color: var(--grey);
     text-transform: uppercase;
     align-items: baseline;
@@ -310,7 +311,7 @@ footer section{
 
     /* Nav menu */
     nav{
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
         justify-content: space-between;
     }
 
