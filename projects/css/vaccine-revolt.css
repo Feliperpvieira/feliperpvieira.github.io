@@ -197,11 +197,11 @@ main p{
 }
 
 .card-details svg{
-    margin: 4rem 0;
+    margin: 3rem 0;
 }
 
 .card-details h4{
-    margin: 4rem auto;
+    margin: 3rem auto;
     width: 40%;
 }
 
@@ -377,5 +377,10 @@ main p{
 
     .card-details h4, .card-details svg{
         margin: 1rem auto;
+    }
+
+    .subtitle{
+        font-size: 1rem;
+        line-height: 1.25rem;
     }
 }
