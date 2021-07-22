@@ -73,12 +73,38 @@ header > div{
 }
 
 nav{
-    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+    margin-bottom: 1.5rem;
 }
 
 nav img{
     margin-top: 1.5rem;
-    margin-bottom: 0.7rem;
+    margin-right: 2rem;
+    margin-bottom: -0.5rem;
+    border-right: 1px solid #CCCCCC;
+    padding-right: 2rem;
+    width: 8rem;
+}
+
+nav ul{
+    z-index: 998;
+    display: flex;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5em;
+    color: var(--grey);
+    text-transform: uppercase;
+    align-items: baseline;
+}
+
+nav ul > li{
+    margin-right: 2rem;
+}
+
+nav ul li .underline-link{
+    background-size: auto 200%;
 }
 
 .header-content{
@@ -86,7 +112,7 @@ nav img{
     flex-direction: row;
     justify-content: space-between;
 
-    margin-top: -1rem;
+    margin-top: -0.5rem;
 }
 
 .header-content img{
@@ -282,6 +308,29 @@ footer section{
         margin: auto;
     }
 
+    /* Nav menu */
+    nav{
+        margin-bottom: 0.5rem;
+        justify-content: space-between;
+    }
+
+    nav img{
+        border-right: none;
+        width: 7rem;
+    }
+
+    nav ul{
+        font-size: 1.2em;
+    }
+
+    nav ul > li{
+        margin-right: 0.8rem;
+    }
+
+    nav ul li .underline-link{
+        background-size: auto 200%;
+    }
+
     /* Header in column, img under text */
     .header-content{
         display: flex;
@@ -337,11 +386,6 @@ footer section{
 
 
 /* SHARED CONTENT BETWEEN ALL PROJECTS PAGES */
-/* Margin between nav and cover img */
-nav{
-    margin-bottom: 1rem;
-}
-
 /* Cover image */
 .header-cover{
     display: block; 
