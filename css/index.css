@@ -51,7 +51,7 @@ p{
     color: var(--grey);
     background-position-y: -0%;
     background-image: linear-gradient( rgba(255, 255, 255, 0) 50%, var(--blue-dark) 50%);
-    transition: background 200ms ease, color 300ms ease;
+    transition: background 200ms ease, color 200ms ease;
     background-size: 2px;
     background-size: auto 180%;
 }
@@ -374,6 +374,47 @@ nav{
     max-width: 377px;
 }
 
+/* Credits */
+.credits h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #9F9F9F;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #9F9F9F;
+    margin-top: 5rem;
+    margin-bottom: 1.75rem;
+}
+
+.credits p{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.credits a{
+    color: black;
+}
+
+.credits > div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.credits img{
+    max-height: 250px;
+    width: auto;
+}
+
+.exhibitions div{
+    align-items: center;
+}
+
+.exhibitions p{
+    width: 100%;
+}
+
 /* Mobile */
 @media screen and (max-width: 760px) {
     /* Cover image */
@@ -394,5 +435,17 @@ nav{
     .project-bio p{
         margin-bottom: 3rem;
     }
+
+    /* Credits */
+    .credits div{
+        flex-direction: column;
+    }
+
+    .credits p{
+        width: 100%;
+    }
     
+    .credits img{
+        margin-bottom: 2rem;
+    }
 }
