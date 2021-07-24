@@ -37,6 +37,16 @@ main p{
     max-width: 377px;
 }
 
+/* Subtitles */
+.subtitle{
+    color: #929292;
+    font-size: 1.375rem;
+    line-height: 1.5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 5.5rem;
+    text-align: center;
+}
+
 /* Credits */
 .credits h6{
     font-family: 'Roboto', sans-serif;
@@ -67,12 +77,13 @@ main p{
 }
 
 .credits img{
-    max-height: 250px;
+    max-height: 220px;
     width: auto;
 }
 
 .exhibitions div{
     align-items: center;
+    margin: auto;
 }
 
 .exhibitions p{
@@ -98,6 +109,13 @@ main p{
 
     .project-bio p{
         margin-bottom: 3rem;
+    }
+
+    /* Subtitles */
+    .subtitle{
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin-bottom: 3.5rem;
     }
 
     /* Credits */
@@ -132,6 +150,12 @@ main p{
         margin: 2rem 0;
     }
 
+    /* Subtitles */
+    .subtitle{
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    
     .exhibitions p{
         margin-left: 1.5rem;
     }

@@ -1,0 +1,55 @@
+/* Color variables */
+:root {
+    --paprica-red: #E73E38;
+}
+
+/* How it works */
+.how-works{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.how-works li{
+    width: 22%;
+    text-align: center;
+}
+
+.how-works p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.how-works img{
+    width: auto;
+    margin-bottom: 1.5rem;
+}
+
+.how-works h4{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+/* Mobile */
+@media screen and (max-width: 760px){
+    .how-works{
+        flex-direction: column;
+    }
+
+    .how-works li{
+        width: 100%;
+    }
+
+    .how-works p{
+        margin-bottom: 4rem;
+    }
+}

@@ -172,15 +172,6 @@ h1, h2, h3, h4, h5, h6{
     text-align: right;
 }
 
-.subtitle{
-    color: #929292;
-    font-size: 1.375rem;
-    line-height: 1.5rem;
-    margin-top: 0.8rem;
-    margin-bottom: 5.5rem;
-    text-align: center;
-}
-
 /* Card details */
 .card-details div{
     display: flex;
@@ -220,12 +211,6 @@ h1, h2, h3, h4, h5, h6{
     .p-merriweather{
         font-size: 1.25rem;
         line-height: 1.5rem;
-    }
-
-    .subtitle{
-        font-size: 1rem;
-        line-height: 1.25rem;
-        margin-bottom: 3.5rem;
     }
 
     /* Cards summary */
@@ -371,10 +356,5 @@ h1, h2, h3, h4, h5, h6{
 
     .card-details h4, .card-details svg{
         margin: 1rem auto;
-    }
-
-    .subtitle{
-        font-size: 1rem;
-        line-height: 1.25rem;
     }
 }
