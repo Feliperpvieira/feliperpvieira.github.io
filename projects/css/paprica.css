@@ -1,16 +1,17 @@
-/* Color variables */
-:root {
-    --paprica-red: #E73E38;
+.video-line{
+    margin-top: 4rem;
 }
 
 /* How it works */
 .how-works{
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.how-works ul{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
-    margin-top: 6rem;
-    margin-bottom: 2rem;
 }
 
 .how-works li{
@@ -34,14 +35,29 @@
 .how-works h4{
     font-family: 'Montserrat', sans-serif;
     color: black;
+    text-align: center;
     font-weight: 700;
     font-size: 1.5rem;
     margin-bottom: 0.8rem;
 }
 
+.how-works > h4{
+    margin-bottom: 2rem;
+}
+
+.grid-pics{
+    margin-bottom: 6rem;
+}
+
+.chef-colors{
+    display: block;
+    width: 40%;
+    margin: 6rem auto;
+}
+
 /* Mobile */
 @media screen and (max-width: 760px){
-    .how-works{
+    .how-works ul{
         flex-direction: column;
     }
 
@@ -49,7 +65,18 @@
         width: 100%;
     }
 
+    .how-works img{
+        width: 60%;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+
     .how-works p{
         margin-bottom: 4rem;
+    }
+
+    .chef-colors{
+        width: 80%;
+        margin: 4rem auto;
     }
 }

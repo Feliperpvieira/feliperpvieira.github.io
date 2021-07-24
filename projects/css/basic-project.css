@@ -129,6 +129,9 @@ main p{
     }
     
     .credits img{
+        display: block;
+        width: 80%;
+        margin: auto;
         margin-bottom: 2rem;
     }
 }
