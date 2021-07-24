@@ -13,12 +13,6 @@ h1, h2, h3, h4, h5, h6{
     color: black;
 }
 
-main p{
-    color: black;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-}
-
 /* Cards summary */
 .cards-summary{
     margin: 5.5rem 1rem;

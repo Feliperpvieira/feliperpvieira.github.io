@@ -1,0 +1,138 @@
+/* SHARED CONTENT BETWEEN ALL PROJECTS PAGES */
+main p{
+    color: black;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+/* Cover image */
+.header-cover{
+    display: block; 
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    position: relative; /* used to center img */
+    border: none;
+    border-radius: 0;
+}
+
+.header-cover img{
+    width: 100%;
+    position: absolute; /* img centered */
+    top:-100%; left:0; right: 0; bottom:-100%;
+    margin: auto;
+}
+
+/* Project logo and minibio */
+.project-bio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-bio img{
+    margin: 5rem;
+    margin-left: 0;
+    width: 45%;
+    max-width: 377px;
+}
+
+/* Credits */
+.credits h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #9F9F9F;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #9F9F9F;
+    margin-top: 5rem;
+    margin-bottom: 1.75rem;
+}
+
+.credits p{
+    width: 50%;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.credits a{
+    color: black;
+}
+
+.credits > div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.credits img{
+    max-height: 250px;
+    width: auto;
+}
+
+.exhibitions div{
+    align-items: center;
+}
+
+.exhibitions p{
+    width: 100%;
+}
+
+/* Mobile */
+@media screen and (max-width: 760px) {
+    /* Cover image */
+    .header-cover{
+        height: 25vh;
+    }
+
+    /* Project logo and minibio */
+    .project-bio{
+        flex-direction: column;
+    }
+
+    .project-bio img{
+        margin: 3rem 0;
+        width: 80%;
+    }
+
+    .project-bio p{
+        margin-bottom: 3rem;
+    }
+
+    /* Credits */
+    .credits div{
+        flex-direction: column;
+    }
+
+    .credits p{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .credits img{
+        margin-bottom: 2rem;
+    }
+}
+
+/* Tablets and medium screens */
+@media screen and (min-width: 760px) and (max-width: 1100px){
+    /* Cover image */
+    .header-cover{
+        height: 25vh;
+    }
+
+    .project-bio img{
+        margin: 3rem 1rem;
+        margin-left: 0;
+        width: 35%;
+    }
+
+    .project-bio p{
+        margin: 2rem 0;
+    }
+
+    .exhibitions p{
+        margin-left: 1.5rem;
+    }
+}
