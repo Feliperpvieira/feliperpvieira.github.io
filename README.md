@@ -1,11 +1,9 @@
-# feliperpvieira.github.io
+# Portfolio / Personal website
 
 Personal portfolio
 
 Special thanks:
 <ul>
-  <li>Underline links: https://emilkowalski.github.io/css-effects-snippets/</li>
-  <li>Shape divider: https://getwaves.io/</li>
-  <li>Social icons: https://iconmonstr.com/</li>
+  <li>Hover animation on links: https://codepen.io/shelaine/pen/zJWMNQ/</li>
   <li>Emojis: https://twemoji.twitter.com/</li>
  </ul>
