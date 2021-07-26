@@ -277,19 +277,44 @@ main, footer section{
 
 /* Footer */
 /* Footer width is set together with the main tag */
-footer{
+footer{ 
     background-color: var(--off-white);
     margin-top: 7rem;
-}
-
-footer img{
-    margin-right: 4rem;
 }
 
 footer section{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2.25em 0;
+}
+
+footer section > div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.email-link{
+    font-weight: bold;
+    font-family: 'JetBrains Mono', monospace;
+    margin-bottom: 0.5rem;
+}
+
+footer img{
+    margin-right: 2rem;
+    border-right: 1px solid #CCCCCC;
+    padding-right: 2rem;
+    width: 8rem;
+    height: 100%;
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer ul li{
+    margin-right: 1rem;
 }
 
 /* Mobile */
@@ -365,6 +390,20 @@ footer section{
 
     .about div ul li p{
         width: 100%;
+    }
+
+    /* Footer */
+    footer section{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    footer img{
+        border-right: none;
+    }
+
+    footer section div div{
+        margin: 2rem 0;
     }
 }
 
