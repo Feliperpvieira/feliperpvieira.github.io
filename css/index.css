@@ -397,6 +397,10 @@ footer ul li{
         flex-direction: column;
     }
 
+    footer li{
+        margin-bottom: 0.6rem;
+    }
+
     footer img{
         border-right: none;
     }
