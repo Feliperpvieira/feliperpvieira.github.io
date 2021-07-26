@@ -35,6 +35,7 @@ main p{
     margin-left: 0;
     width: 45%;
     max-width: 377px;
+    max-height: 175px;
 }
 
 /* Subtitles */
