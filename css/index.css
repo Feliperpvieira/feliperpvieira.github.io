@@ -286,6 +286,7 @@ footer section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 2.25em 0;
 }
 
@@ -295,8 +296,6 @@ footer section > div{
 }
 
 .email-link{
-    font-weight: bold;
-    font-family: 'JetBrains Mono', monospace;
     margin-bottom: 0.5rem;
 }
 
