@@ -1,0 +1,95 @@
+/* Details */
+.details{
+    margin: 12rem 0;
+}
+
+/* iPhones */
+.iphones div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iphones div span{
+    width: 45%;
+}
+
+.iphones h4{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.iphones .last-item{
+    margin-top: -25%;
+}
+
+.right{
+    text-align: right;
+}
+
+/* Links */
+.links{
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.button{
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+    background-color: #0871BA;
+    margin-bottom: 1rem;
+    transition: .4s ease;
+}
+
+.button:hover{
+    padding: 1.5rem 5rem;
+    background-color: #075b97;
+}
+
+.links a{
+    color: white;
+}
+
+.github-text a{
+    color: black;
+}
+
+/* Mobile */
+@media screen and (max-width: 760px) {
+    .details{
+        margin: 6rem 0;
+    }
+
+    .iphones div{
+        flex-direction: column;
+    }
+
+    .iphones img{
+        width: 100%;
+    }
+
+    .iphones div span{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .iphones .last-item{
+        margin-top: 5rem;
+    }
+
+    .iphones h4{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .order-m-1{
+        order: 1;
+    }
+
+    .order-m-2{
+        order: 2;
+    }
+}
