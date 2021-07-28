@@ -1,6 +1,6 @@
 /* Details */
 .details{
-    margin: 12rem 0;
+    margin: 10rem 0;
 }
 
 /* iPhones */
@@ -91,5 +91,12 @@
 
     .order-m-2{
         order: 2;
+    }
+}
+
+/* Tablets and medium screens */
+@media screen and (min-width: 760px) and (max-width: 1100px){
+    .iphones h4{
+        font-size: 2rem;
     }
 }

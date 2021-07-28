@@ -1,0 +1,179 @@
+/* Color variables */
+:root {
+    --mapp-blue: #1281B0;
+}
+
+.quicksand{
+    font-family: 'Quicksand', sans-serif;
+}
+
+main h4{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--mapp-blue);
+}
+
+/* Flex with phones side by side */
+.flex-phones{
+    margin: 8rem 0;
+}
+
+.flex-phones > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom{
+    margin-top: -65%;
+}
+
+.flex-phones .text, .phone-map .text-img{
+    width: 47%;
+}
+
+.flex-phones .top .text{
+    margin-top: 6rem;
+}
+
+.flex-phones .left{
+    text-align: left;
+    padding-right: 5%;
+}
+
+.flex-phones .bottom .text, .phone-map .text-img{
+    align-self: flex-end;
+    margin-bottom: 6rem;
+}
+
+.flex-phones .right{
+    text-align: right;
+    padding-left: 5%;
+}
+
+/*Achievements*/
+.phone-map{
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-map .text-img img{
+    margin-top: 2rem;
+}
+
+.phone-map .text-img h4, .phone-map .text-img p{
+    padding-right: 10%;
+}
+
+/*Last screenshots*/
+.side-by-side{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+
+/* Mobile */
+@media screen and (max-width: 760px) {
+    main h4{
+        font-size: 2.5rem;
+    }
+    .flex-phones > div, .phone-map{
+        flex-direction: column;
+    }
+
+    .flex-phones img, .phone-map img{
+        width: 90%;
+        margin: auto;
+    }
+
+    .flex-phones .text, .phone-map .text-img{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .bottom{
+        margin-top: 6rem;
+    }
+
+    .flex-phones .top .text{
+        margin-top: 1.5rem;
+    }
+
+    .flex-phones .left{
+        text-align: center;
+        padding-right: 0;
+    }
+    
+    .flex-phones .bottom .text, .phone-map .text-img{
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .flex-phones .right{
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .top img{
+        order: 1;
+    }
+
+    .top .text{
+        order: 2;
+    }
+
+    .bottom img{
+        order: 1;
+    }
+
+    .bottom .text{
+        order: 2;
+    }
+
+    /*Achievements*/
+    .phone-map .text-img{
+        text-align: center;
+    }
+
+    .phone-map .text-img h4, .phone-map .text-img p{
+        padding-right: 0;
+    }
+
+    /*Last screenshots*/
+    .side-by-side{
+        flex-direction: column;
+    }
+
+    .side-by-side img{
+        width: 90%;
+        margin: 2rem auto;
+    }
+        
+}
+
+/* Tablets and medium screens */
+@media screen and (min-width: 760px) and (max-width: 1100px){
+    main h4{
+        font-size: 2.5rem;
+    }
+
+    .bottom{
+        margin-top: -60%;
+    }
+
+    .flex-phones .top .text{
+        padding-right: 0;
+        margin-top: 3rem;
+    }
+    
+    .flex-phones .bottom .text{
+        padding-left: 0;
+        margin-bottom: 3rem;
+    }
+
+
+    .phone-map .text-img h4, .phone-map .text-img p{
+        padding-right: 0;
+    }
+}
