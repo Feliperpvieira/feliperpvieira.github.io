@@ -1,0 +1,77 @@
+.highlights{
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlights .h-text{
+    max-width: 50%;
+    margin-top: 15%;
+}
+
+main h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color: black;
+    font-weight: 600;
+
+    margin-bottom: 3rem;
+}
+
+.highlights ul{
+    font-size: 1.75rem;
+}
+
+.highlights ul li{
+    margin-bottom: 3.3rem;
+}
+
+.highlights ul li .emoji{
+    margin-right: .8em;
+}
+
+.highlights .h-image{
+    width: 50%;
+}
+
+.highlights .h-image img{
+    width: 100%;
+}
+
+.blue-section{
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+
+    margin-top: -30%;
+    z-index: -1;
+}
+
+.blue-section .blue-bg{
+    background-color: #0F80BF;
+    margin-top: -5px;
+}
+
+.blue-section .blue-bg .content{
+    width: 70%;
+    margin: auto;
+}
+
+.blue-section .blue-bg .content h2, .blue-section .blue-bg .content h5{
+    color: white;
+}
+
+.blue-section .blue-bg .content h2{
+    padding-top: 2.5rem;
+}
+
+.blue-section .blue-bg .content h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    max-width: 850px;
+}
+
+.blue-section .blue-bg .content img{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
