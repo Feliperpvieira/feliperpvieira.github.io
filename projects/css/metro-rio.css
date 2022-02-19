@@ -162,6 +162,10 @@ main h2{
         margin-top: 4rem;
     }
 
+    .phones-side img, .phones-side p{
+        width: 100%;
+    }
+
     .phones-side{
         flex-direction: column;
 
