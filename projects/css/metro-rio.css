@@ -1,3 +1,4 @@
+/* Highlights, top section */
 .highlights{
     display: flex;
     justify-content: space-between;
@@ -22,7 +23,7 @@ main h2{
 }
 
 .highlights ul li{
-    margin-bottom: 3.3rem;
+    margin-bottom: 3rem;
 }
 
 .highlights ul li .emoji{
@@ -37,18 +38,20 @@ main h2{
     width: 100%;
 }
 
-.blue-section{
+/* User flow diagram */
+.blue-section{ /* Blue background on 100% of page width */
     width: 100vw;
     position: relative;
     left: calc(-50vw + 50%);
 
-    margin-top: -30%;
+    margin-top: -30%; /* Makes the phone bottom part appear on top of the blue background */
     z-index: -1;
 }
 
 .blue-section .blue-bg{
     background-color: #0F80BF;
-    margin-top: -5px;
+    margin-top: -5px; /* Fix small white gap */
+    margin-bottom: -1px;
 }
 
 .blue-section .blue-bg .content{
@@ -64,7 +67,7 @@ main h2{
     padding-top: 2.5rem;
 }
 
-.blue-section .blue-bg .content h5{
+.blue-section .blue-bg .content h5, .phones-title h5{
     font-family: 'Roboto', sans-serif;
     font-size: 1.75rem;
     line-height: 2.5rem;
@@ -74,4 +77,67 @@ main h2{
 .blue-section .blue-bg .content img{
     margin-top: 4rem;
     margin-bottom: 3rem;
+}
+
+/* Phones side by side */
+.phones-title{
+    width: 48%;
+    margin-left: auto;
+
+    margin-top: 4rem;
+}
+
+.phones-side{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: -33%;
+}
+
+.phones-side img, .phones-side p{
+    width: 90%;
+}
+
+.phones-side p{
+    color: #202020;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.phones-side .second-phone{
+    margin-top: 50%;
+}
+
+/* Mobile */
+@media screen and (max-width: 760px) {
+    .highlights{
+        flex-direction: column;
+    }
+
+    .highlights .h-text{
+        max-width: 100%;
+        margin-top: 0;
+    }
+    
+    main h2{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .highlights ul{
+        font-size: 1.5rem;
+    }
+    
+    .highlights ul li{
+        margin-bottom: 1.5rem;
+    }
+    
+    .highlights ul li .emoji{
+        margin-right: .8em;
+    }
+    
+    .highlights .h-image{
+        width: 100%;
+    }
+
 }
