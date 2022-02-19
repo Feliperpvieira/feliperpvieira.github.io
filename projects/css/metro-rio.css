@@ -110,7 +110,10 @@ main h2{
 
 /* Mobile */
 @media screen and (max-width: 760px) {
+    /* Highlights, top section */
     .highlights{
+        margin-top: 6rem;
+
         flex-direction: column;
     }
 
@@ -140,4 +143,32 @@ main h2{
         width: 100%;
     }
 
+    /* User flow diagram */
+    .blue-section .blue-bg .content{
+        width: 90%;
+        margin: auto;
+    }
+
+    .blue-section .blue-bg .content h5, .phones-title h5{
+        font-size: 1.3rem;
+        line-height: 1.75rem;
+        max-width: 100%;
+    }
+
+    /* Phones side by side */
+    .phones-title{
+        width: 100%;
+
+        margin-top: 4rem;
+    }
+
+    .phones-side{
+        flex-direction: column;
+
+        margin-top: 15%;
+    }
+
+    .phones-side .second-phone{
+        margin-top: 15%;
+    }
 }
