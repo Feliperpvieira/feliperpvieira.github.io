@@ -55,6 +55,10 @@
     margin: 6rem auto;
 }
 
+.report{
+    text-align: center;
+}
+
 /* Mobile */
 @media screen and (max-width: 760px){
     .how-works ul{
