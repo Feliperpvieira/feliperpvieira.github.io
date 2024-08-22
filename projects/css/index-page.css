@@ -1,0 +1,69 @@
+/* text on top of the page */
+main p{
+    font-size: 1.2rem;
+    line-height: 150%;
+    font-weight: 300;
+    color: var(--blue-black);
+
+    max-width: 740px;
+}
+
+.welcome-text{
+    margin-top: 54px;
+    margin-bottom: 90px;
+}
+
+/* year title and small text */
+main h1{
+    font-size: 4rem;
+}
+
+.year-bio{
+    margin-bottom: 54px;
+}
+
+/* highlights section */
+.highlights h2{
+    color: #929292;
+    font-family: "JetBrains Mono";
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    line-height: normal;
+}
+
+.highlights > div{
+    background-color: var(--off-white);
+    margin-top: -19px;
+
+    display: flex;
+    padding: 42px 28px;
+}
+
+.highlights div img{
+    width: 40%;
+    margin-right: 28px;
+}
+
+.highlights .high-info h5{
+    color: var(--blue-black);
+    font-family: "JetBrains Mono";
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.highlights .high-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.highlights .high-info p{
+    color: black;
+}
+
+.highlights .high-info .section-title{
+    background-image: linear-gradient( var(--off-white) 50%, var(--blue-dark) 50%);
+    margin: 0;
+}
