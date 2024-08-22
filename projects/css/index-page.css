@@ -1,11 +1,11 @@
 /* text on top of the page */
 main p{
-    font-size: 1.2rem;
+    font-size: 1.125rem;
     line-height: 150%;
     font-weight: 300;
     color: var(--blue-black);
 
-    max-width: 740px;
+    max-width: 710px;
 }
 
 .welcome-text{
@@ -15,7 +15,7 @@ main p{
 
 /* year title and small text */
 main h1{
-    font-size: 4rem;
+    font-size: 3.4rem;
 }
 
 .year-bio{
@@ -26,19 +26,18 @@ main h1{
 .highlights h2{
     color: #929292;
     font-family: "JetBrains Mono";
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
-    
-    line-height: normal;
 }
 
 .highlights > div{
     background-color: var(--off-white);
-    margin-top: -19px;
+    margin-top: -14px;
 
     display: flex;
     padding: 42px 28px;
+    margin-bottom: 72px;
 }
 
 .highlights div img{
@@ -49,7 +48,7 @@ main h1{
 .highlights .high-info h5{
     color: var(--blue-black);
     font-family: "JetBrains Mono";
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
