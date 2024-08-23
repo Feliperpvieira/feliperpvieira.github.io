@@ -186,4 +186,14 @@ main h1{
         flex-direction: column;
         gap: 0;
     }
+
+    .smallerthings h2{
+        font-size: 2rem;
+    }
+
+    .smallerthings div img{
+        width: 50%;
+        margin-left: 0;
+        margin-right: auto;
+    }
 }
