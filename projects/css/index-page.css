@@ -44,12 +44,12 @@ main h1{
     width: 40%;
     margin-right: 28px;
 }
-
-.highlights .high-info h5{
+.proj-name{
     color: var(--blue-black);
     font-family: "JetBrains Mono";
     font-size: 1.25rem;
     font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .highlights .high-info{
@@ -58,11 +58,36 @@ main h1{
     justify-content: space-between;
 }
 
-.highlights .high-info p{
+.highlights .high-info > p{
     color: black;
+    margin-top: -1rem;
 }
 
 .highlights .high-info .section-title{
     background-image: linear-gradient( var(--off-white) 50%, var(--blue-dark) 50%);
     margin: 0;
+}
+
+/* project bio */
+.project .proj-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project .proj-header div{
+    width: 60%;
+}
+
+.project .proj-header img{
+    width: 33%;
+    margin: auto;
+    margin-left: 0;
+}
+
+.grey-text{
+    color: var(--grey);
+}
+
+.project .img-high{
+    margin: 48px 0;
 }
