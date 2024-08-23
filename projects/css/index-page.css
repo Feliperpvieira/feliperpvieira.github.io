@@ -167,4 +167,18 @@ main h1{
         color: black;
         margin: 0 auto 1rem auto;
     }
+
+    /* project bio */
+    .project .proj-header{
+        flex-direction: column;
+    }
+
+    .project .proj-header div{
+        width: 100%;
+    }
+
+    .project .proj-header img{
+        width: 70%;
+        margin-bottom: 32px;
+    }
 }
