@@ -132,6 +132,7 @@ main h1{
     background-color: var(--off-white);
     display: block;
     width: 460px;
+    max-width: 100%;
     height: 68px;
     margin: auto;
     line-height: 280%;
