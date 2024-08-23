@@ -147,6 +147,12 @@ main h1{
     font-size: 2.4rem;
 }
 
+.proj-play-badge{
+    display: block;
+    width: 240px;
+    margin: -16px auto 36px auto;
+}
+
 
 
 
