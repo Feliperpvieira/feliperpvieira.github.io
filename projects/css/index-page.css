@@ -24,11 +24,10 @@ main h1{
 
 /* highlights section */
 .highlights h2{
-    color: #929292;
+    color: var(--bright-grey);
     font-family: "JetBrains Mono";
     font-size: 3rem;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 .highlights > div{
@@ -75,14 +74,18 @@ main h1{
 }
 
 .project .proj-header div{
-    width: 60%;
+    width: 57%;
 }
 
 .project .proj-header img{
     width: 33%;
     margin: auto;
-    margin-left: 0;
 }
+
+/* .project .proj-header .square-logo{
+    max-height: 180px;
+    width: auto;
+} */
 
 .grey-text{
     color: var(--grey);
@@ -90,4 +93,54 @@ main h1{
 
 .project .img-high{
     margin: 48px 0;
+}
+
+.project .img-grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project .img-grid img{
+    width: 48%;
+    margin-bottom: 48px;
+}
+
+.proj-credits > div{
+    display: flex;
+    gap: 4em;
+}
+
+.proj-credits p{
+    line-height: 200%;
+}
+
+.proj-credits{
+    margin-bottom: 152px;
+}
+
+.proj-link{
+    max-width: none;
+    text-align: center;
+    font-family: "JetBrains Mono";
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    margin-bottom: 48px;
+}
+
+.proj-link a{
+    background-color: var(--off-white);
+    display: block;
+    width: 460px;
+    height: 68px;
+    margin: auto;
+    line-height: 280%;
+}
+
+.smallerthings{
+    margin-top: -64px;
+}
+
+.smallerthings h2{
+    font-size: 2.4rem;
 }
