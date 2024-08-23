@@ -43,6 +43,7 @@ main h1{
     width: 40%;
     margin-right: 28px;
 }
+
 .proj-name{
     color: var(--blue-black);
     font-family: "JetBrains Mono";
@@ -144,4 +145,26 @@ main h1{
 
 .smallerthings h2{
     font-size: 2.4rem;
+}
+
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 760px) {
+    .highlights > div{
+       flex-direction: column;
+    }
+
+    .highlights div img{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 32px;
+    }
+
+    .highlights .high-info > p{
+        color: black;
+        margin: 0 auto 1rem auto;
+    }
 }
