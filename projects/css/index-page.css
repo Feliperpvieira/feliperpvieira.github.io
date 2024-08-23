@@ -187,6 +187,18 @@ main h1{
         gap: 0;
     }
 
+    .proj-link{
+        font-size: 1.2rem;
+        font-weight: 700;
+    
+        margin-bottom: 36px;
+    }
+    
+    .proj-link a{
+        height: 42px;
+        line-height: 220%;
+    }
+
     .smallerthings h2{
         font-size: 2rem;
     }
