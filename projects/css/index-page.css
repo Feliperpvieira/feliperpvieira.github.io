@@ -178,7 +178,12 @@ main h1{
     }
 
     .project .proj-header img{
-        width: 70%;
-        margin-bottom: 32px;
+        width: 50%;
+        margin: auto auto 32px 0;
+    }
+
+    .proj-credits > div{
+        flex-direction: column;
+        gap: 0;
     }
 }
