@@ -33,10 +33,12 @@ main h1{
 .highlights > div{
     background-color: var(--off-white);
     margin-top: -14px;
+    margin-bottom: 72px;
+}
 
+.highlights > div > div{
     display: flex;
     padding: 42px 28px;
-    margin-bottom: 72px;
 }
 
 .highlights div img{
