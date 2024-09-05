@@ -103,8 +103,20 @@ main h1{
     justify-content: space-between;
 }
 
-.project .img-grid img{
+.project .img-grid div{
     width: 48%;
+    margin: auto;
+}
+
+.project .img-grid div img{
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.proj-subtitles{
+    max-width: 100%;
+    text-align: center;
+    color: var(--grey);
     margin-bottom: 48px;
 }
 
