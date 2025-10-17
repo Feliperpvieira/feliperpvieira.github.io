@@ -27,14 +27,13 @@ h1, h4{
 }
 
 h1{
-    font-size: 7.5rem;
+    font-size: 9rem;
     color: var(--blue-dark);
 }
 
 h2{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: var(--blue-black);
-    line-height: 145%;
 }
 
 h4{
@@ -114,16 +113,14 @@ nav ul li .underline-link{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
-    gap: 0 32px;
 
     margin-top: -0.5rem;
 }
 
 .header-content img{
-    height: 24rem;
+    height: 25rem;
     width: auto;
-    /* margin-top: -2.5rem; */
+    margin-top: -2.5rem;
 }
 
 .header-content div{
@@ -131,18 +128,12 @@ nav ul li .underline-link{
 }
 
 header h2{
-    /* width: 65%; */
-    margin-bottom: 2rem;
-}
-
-header h2 .underline-link{
-    color: var(--blue-black);;
+    width: 65%;
 }
 
 /* Main content and footer width */
 main, footer section{
     width: 70%;
-    max-width: 1080px;
     margin: auto;
 }
 
@@ -190,181 +181,33 @@ main, footer section{
     fill: var(--white);
 }
 
-
-
-
-/* Project highlighted */
-.proj-highlight p{
-    font-size: 1.2rem;
-    margin: 14px 0;
-    font-weight: 330;
-}
-
-.second-high{
-    margin: 124px 0;
-}
-
-.proj-highlight > img, .proj-highlight .img-gallery{
-    margin: 32px 0;
-    width: 100%;
-}
-
-.proj-highlight .proj-info{
+/* About */
+.about div{ 
     display: flex;
     justify-content: space-between;
-
-    margin-top: 38px;
+    flex-direction: row;
 }
 
-.proj-highlight .proj-info h6{
-    font-size: 1.2rem;
-    color: var(--blue-dark);
-    font-weight: 600;
+.about div > p, .about div ul{
+    width: 45%;
 }
 
-.proj-highlight .proj-info p{
-    margin: 0;
-    font-weight: 200;
-}
-
-.proj-highlight .proj-info a{
-    margin: auto 0;
-}
-
-.proj-highlight .proj-info a img {
-    /* Set up the initial state and transition */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
-    transform: scale(1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-    cursor: pointer;
-}
-
-.proj-highlight .proj-info a:hover img {
-    /* Define the hover state */
-    /* transform: scale(1.05); /* Slightly enlarge the image */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Make the shadow larger and darker */
-}
-
-.proj-highlight .section-title{
-    /* width: 40%; */
-    margin: 32px auto;
-    /* justify-content: center; */
-
-    text-transform: none;
-
-    /* background-image: linear-gradient( var(--off-white) 50%, var(--blue-dark) 50%); */
-}
-
-.proj-highlight .section-title h4{
-    margin-right: 32px;
-}
-
-
-
-/*------------IMAGE ZOOMABLE GALLERY----------------*/
-.img-gallery{
+.about div ul li{
     display: flex;
-    max-width: 100%;
 }
 
-/* Gallery Styles */
-.img-gallery {
-    width: calc(100% - 1rem);
-    margin: 0 auto;
-    display: flex;
-    gap: 1rem; /* The space between images */
+.about div ul li:first-child{
+    margin-bottom: 1rem;
 }
 
-.zoomImg {
-    width: 50%; /* Each image takes up half the gallery width */
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
-    cursor: pointer;
-    box-shadow: 0 4px 15px rgba(24, 24, 24, 0.1);
-
-    transition: 0.25s ease-in-out;
+.about div ul li img{
+    width: 3em;
+    margin-right: 2em;
 }
 
-.zoomImg:hover{
-    box-shadow: 0 4px 15px rgba(24, 24, 24, 0.35);
+.about div ul li p{
+    width: 60%;
 }
-
-/* Modal Overlay Styles */
-#modal-view {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    
-    /* The semi-transparent background and blur */
-    background-color: rgba(20, 20, 30, 0.5);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* For Safari */
-    
-    /* Centering the content */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    /* Initial state (hidden) */
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none; /* Can't click it when hidden */
-    
-    /* Animation */
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-
-    z-index: 1000;
-}
-
-/* Active state for the modal (when visible) */
-#modal-view.active {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto; /* Can click it now */
-}
-
-/* Modal Image Styles */
-#modal-img {
-    max-width: 80vw;  /* 80% of viewport width */
-    max-height: 80vh; /* 80% of viewport height */
-    object-fit: contain;
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    
-    /* This is key for the grow/shrink animation */
-    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* Modal Caption Styles */
-#modal-caption {
-    color: #fff;
-    margin-top: 1rem;
-    font-size: 1.1rem;
-    max-width: 70%;
-    text-align: center;
-    
-    /* Fade in/out animation */
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-/* Show caption only when modal is active */
-#modal-view.active #modal-caption {
-    opacity: 1;
-}
-
-
-
-
-
-
-
-
 
 /*---------------- PROJECTS GRID ----------------*/
 .grid-cover{ /* Grid structure */
