@@ -528,25 +528,34 @@ footer ul li{
         margin-top: 1rem;
         margin-left: auto;
         margin-right: -5rem;
+        margin-bottom: -18px;
     }
 
-    /* About in column, icons + txt under paragraph */
-    .about div{ 
-        display: flex;
-        justify-content: space-between;
+
+    /*------------IMAGE ZOOMABLE GALLERY----------------*/
+    .img-gallery{
         flex-direction: column;
     }
 
-    .about div > p, .about div ul{
+    /* Gallery Styles */
+    .img-gallery {
         width: 100%;
+        align-items: center;
+        gap: 2rem; /* The space between images */
     }
 
-    .about div ul{
-        margin-top: 2rem;
+    .zoomImg {
+        width: 90%;
+        border-radius: 4px;
     }
 
-    .about div ul li p{
-        width: 100%;
+    /* project information text */
+    .proj-highlight .proj-info{
+        flex-direction: column;
+    }
+
+    .proj-highlight .proj-info a{
+        margin: 32px 0 0 0;
     }
 
     /* Footer */
