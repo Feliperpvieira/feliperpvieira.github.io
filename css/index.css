@@ -483,6 +483,7 @@ footer ul li{
     
     h2{
         font-size: 1rem;
+        line-height: 1.7rem;
     }
     
     /* Width on mobile screen, not 100% in order to have a margin */
@@ -547,6 +548,12 @@ footer ul li{
     .zoomImg {
         width: 90%;
         border-radius: 4px;
+    }
+
+    /* Modal Image Styles */
+    #modal-img {
+        max-width: 95vw;  /* 80% of viewport width */
+        max-height: 95vh; /* 80% of viewport height */
     }
 
     /* project information text */
