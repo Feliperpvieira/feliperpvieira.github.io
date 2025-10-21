@@ -388,7 +388,7 @@ header h2 .underline-link{
 .project-container {
   font-weight: 300;
 
-  margin-bottom: 48px;
+  margin-bottom: 62px;
 }
 
 .project-preview {
@@ -674,7 +674,7 @@ footer ul li{
     .zoomImg {
         width: 90%;
         border-radius: 4px;
-        max-height: 200px;
+        max-height: 170px;
     }
 
     .project-details .img-gallery {
@@ -692,7 +692,7 @@ footer ul li{
     /* Modal Image Styles */
     #modal-img {
         max-width: 95vw;  /* 80% of viewport width */
-        max-height: 80vh; /* 80% of viewport height */
+        max-height: 70vh; /* 80% of viewport height */
     }
 
     /* project information text */
@@ -707,6 +707,10 @@ footer ul li{
     /* other projects */
     .other-title{
         font-size: 36px;
+    }
+
+    .project-container {
+        margin-bottom: 92px;
     }
 
     .project-preview{
