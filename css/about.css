@@ -1,6 +1,10 @@
+.about-main{
+    margin-top: 4rem;
+}
+
 .about-main p{
     margin-top: 0.75rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0.75rem;
 }
 
 .about-main > p{
@@ -14,7 +18,7 @@
     display: flex;
     justify-content: space-between;
 
-    margin-top: 3rem;
+    margin-top: 7rem;
 }
 
 .about-main section h2{
@@ -24,7 +28,7 @@
     margin-bottom: 2rem;
 }
 
-.about-main section div{
+.about-main section > div{
     width: 67%;
 }
 
@@ -40,20 +44,32 @@
     font-weight: 300;
 }
 
+.about-main ul{
+    list-style-position: inside;
+    font-weight: 300;
+    color: var(--grey);
+
+    font-size: 1.375rem;
+
+    margin-bottom: 4rem;
+}
+
+.about-main ul li{
+    list-style-type: circle;
+    margin-bottom: 12px;
+    line-height: 130%;
+}
+
+.about-main .education div div{
+    margin-bottom: 4rem;
+}
+
 .thin{
     font-weight: 300;
 }
 
 .blue{
     color: var(--blue-dark);
-}
-
-.about-main .resume{
-    margin-top: 3rem;
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: center;
-    font-family: 'JetBrains Mono', monospace;
 }
 
 /* Mobile */
