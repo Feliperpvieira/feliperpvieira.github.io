@@ -64,6 +64,20 @@ p{
     background-position-y: 100%;
 }
 
+strong{
+    color: var(--blue-black);
+    font-weight: 375;
+}
+
+.other-projects ul{
+    list-style-type: square;
+    font-size: 1rem;
+    color: var(--grey);
+    line-height: 1.75rem;
+    list-style-position: inside;
+
+}
+
 /* Header */
 header{
     background: linear-gradient(280.12deg, #F5F5F5 41.12%, #FFFFFF 100.31%);
@@ -538,6 +552,11 @@ header h2 .underline-link{
 .project-details h6{
     color: var(--blue-dark);
     font-weight: 500;
+}
+
+.project-details .section-title{
+    margin-top: 1rem;
+    margin-bottom: 6rem;
 }
 
 
