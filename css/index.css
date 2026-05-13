@@ -38,7 +38,7 @@ h2{
     font-weight: 150;
 }
 
-h3{
+.header-content h3{
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
     color: var(--blue-black);
@@ -641,7 +641,7 @@ footer ul li{
         line-height: 1.7rem;
     }
 
-    h3{
+    .header-content h3{
         font-size: 1rem;
         margin-bottom: 16px;
     }
