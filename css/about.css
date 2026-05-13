@@ -81,4 +81,43 @@
     .about-main section div{
         width: 100%;
     }
+
+    .about-main > p{
+        font-size: 1.2rem;
+        line-height: 130%;
+    }
+
+    .about-main p {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .about-main section h2{
+        font-size: 2rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .about-main section div h4{
+        font-size: 1.25rem;
+    }
+
+    .about-main section div p{
+        font-size: 1.1rem;
+
+    }
+
+    .about-main ul{
+        font-size: 1.1rem;
+
+        margin-bottom: 3rem;
+    }
+
+    .about-main ul li{
+        margin-bottom: 0.75rem;
+        line-height: 120%;
+    }
+
+    .about-main .education div div{
+        margin-bottom: 2rem;
+    }
 }
