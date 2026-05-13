@@ -35,7 +35,15 @@ h2{
     font-size: 1.25rem;
     color: var(--blue-black);
     line-height: 145%;
-    font-weight: 100;
+    font-weight: 150;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--blue-black);
+    font-weight: 250;
+    margin-bottom: 36px;
 }
 
 h4{
@@ -631,6 +639,11 @@ footer ul li{
     h2{
         font-size: 1rem;
         line-height: 1.7rem;
+    }
+
+    h3{
+        font-size: 1rem;
+        margin-bottom: 16px;
     }
     
     /* Width on mobile screen, not 100% in order to have a margin */
