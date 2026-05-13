@@ -1,0 +1,64 @@
+/* Greycliff CF Regular
+font-family: "greycliff-cf", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+Greycliff CF Bold
+font-family: "greycliff-cf", sans-serif;
+font-weight: 700;
+font-style: normal; */
+
+.project-body{
+
+}
+
+.project-body h2{
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: black;
+
+    margin-bottom: -38px;
+    z-index: 1;
+}
+
+.project-body img{
+    margin: 64px 0;
+}
+
+.project-body .barra-deco{
+    z-index: -1;
+    position: relative;
+
+    height: fit-content;
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+
+.project-body p{
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.3;
+}
+
+.project-body p.subtitle{
+    font-size: 20px;
+}
+
+.project-body ul li{
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.3;
+    
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.project-body .spaced{
+    margin: 42px 0;
+}
+
+
