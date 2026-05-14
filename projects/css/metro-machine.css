@@ -79,6 +79,10 @@ font-style: normal; */
     margin-bottom: -128px;
 }
 
+.project-body .option-title.tests{
+    margin-bottom: -64px;
+}
+
 .project-body .option-title h4{
     margin-left: -100px;
     margin-top: 0;
@@ -92,6 +96,21 @@ font-style: normal; */
     margin: 0;
 }
 
+.project-body .test-grid{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+
+.project-body .test-grid p{
+    max-width: 4;
+}
+
+.project-body .test-grid div h4{
+    margin: 0;
+    min-width: max-content;
+}
 
 
 
