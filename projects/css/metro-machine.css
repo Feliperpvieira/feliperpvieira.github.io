@@ -112,6 +112,10 @@ font-style: normal; */
     min-width: max-content;
 }
 
+.project-body img.no-margin-top{
+    margin-top: 0;
+}
+
 
 
 
@@ -168,11 +172,28 @@ font-style: normal; */
     }
 
     .project-body .option-title h4{
-        margin-left: -90px;
+        margin-left: -140px;
         margin-top: 0;
     }
 
     .project-body p span img{
         width: 40px;
     }
+
+
+    .project-body .test-grid{
+        flex-direction: column;
+        gap: 10px;
+
+        margin-bottom: 40px;
+    }
+
+    .project-body .test-grid img{
+        rotate: 90deg;
+        height: 30px;
+        width: auto;
+        margin: 0;
+    }
+    
+
 }
