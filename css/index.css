@@ -32,7 +32,7 @@ h1{
 }
 
 h2{
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     color: var(--blue-black);
     line-height: 145%;
     font-weight: 150;
@@ -638,7 +638,7 @@ footer ul li{
     
     h2{
         font-size: 1rem;
-        line-height: 1.7rem;
+        line-height: 1.5rem;
     }
 
     .header-content h3{
@@ -647,7 +647,8 @@ footer ul li{
     }
 
     .proj-highlight p, main p{
-        font-size: 1rem;
+        font-size: 17px;
+        line-height: 150%;
     }
     
     /* Width on mobile screen, not 100% in order to have a margin */
@@ -791,9 +792,6 @@ footer ul li{
         font-size: 7.5rem;
     }
     
-    h2{
-        font-size: 1.25rem;
-    }
 
     header h2{
         width: 95%;
