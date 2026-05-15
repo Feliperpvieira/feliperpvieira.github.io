@@ -645,6 +645,10 @@ footer ul li{
         font-size: 1rem;
         margin-bottom: 16px;
     }
+
+    .proj-highlight p, main p{
+        font-size: 1rem;
+    }
     
     /* Width on mobile screen, not 100% in order to have a margin */
     .max-width, header > div, footer section{
