@@ -1,7 +1,7 @@
 /* SHARED CONTENT BETWEEN ALL PROJECTS PAGES */
 main p{
     color: black;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     line-height: 1.75rem;
 }
 
@@ -109,6 +109,7 @@ main p{
     }
 
     .project-bio p{
+        font-size: 1rem;
         margin-bottom: 3rem;
     }
 
