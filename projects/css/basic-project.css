@@ -62,9 +62,9 @@ main p{
 }
 
 .credits p{
-    width: 50%;
+    /* width: 50%; */
     margin-bottom: 1rem;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
 }
 
 .credits a{
