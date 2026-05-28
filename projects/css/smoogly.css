@@ -1,0 +1,49 @@
+.project-body p{
+    text-align: center;
+    font-size: 19px;
+
+    width: 860px;
+    max-width: 100%;
+    margin: 16px auto;
+}
+
+.project-body ul{
+    font-size: 19px;
+
+    width: 650px;
+    max-width: 100%;
+    margin: 64px auto 16px auto;
+
+    list-style-type: circle;
+    list-style-position: inside;
+
+    line-height: 130%;
+}
+
+.project-body ul li{
+    margin: 12px 0;
+}
+
+.project-body h3{
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    width: 400px;
+    max-width: 100%;
+    margin: 64px auto 36px auto;
+    text-align: center;
+    line-height: 1;
+}
+
+.project-body .paper-img{
+    transform: rotate(-3deg);
+}
+
+.project-body img{
+    display: block;
+    margin: auto;
+}
+
+.project-body .bubble{
+    margin: 128px auto 50px auto;
+}
