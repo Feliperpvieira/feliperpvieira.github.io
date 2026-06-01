@@ -95,7 +95,7 @@
 
     .project-body p, .project-body ul{
         font-size: 16px;
-        line-height: 120%;
+        line-height: 125%;
     }
 
     .project-body h3{
@@ -122,6 +122,10 @@
         width: 70%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .project-body .bubble.title{
+        margin-top: 128px;
     }
 
 }
