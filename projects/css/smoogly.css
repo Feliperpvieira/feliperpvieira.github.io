@@ -47,3 +47,49 @@
 .project-body .bubble{
     margin: 128px auto 50px auto;
 }
+
+.project-body .proj-objective{
+    width: 700px;
+    margin-bottom: 0;
+}
+
+.project-body .margin-bottom{
+    margin-bottom: 80px;
+}
+
+.project-body .bubble.left{
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.project-body .bubble.right{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.project-body .machines-gallery, .project-body .side-by-side{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-body .machines-gallery img{
+    width: 40%;
+    margin: 64px auto;
+}
+
+.mirror-margin{
+    margin-top: 128px;
+}
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 760px) {
+
+    .bubble.left{
+        width: 300px;
+    }
+
+}
