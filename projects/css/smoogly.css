@@ -51,6 +51,7 @@
 .project-body .proj-objective{
     width: 700px;
     margin-bottom: 0;
+    max-width: 100%;
 }
 
 .project-body .margin-bottom{
@@ -102,6 +103,15 @@
         width: 100%;
 
         margin: 48px auto 16px auto;
+    }
+
+    .project-body .margin-bottom{
+        margin-bottom: 42px;
+    }
+
+    .project-body .machines-gallery img{
+        width: 100%;
+        margin: 36px auto;
     }
 
 }
