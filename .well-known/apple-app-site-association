@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "J52949JRCT.com.frpv.rePraca",
-        "paths": [ "/abrir-app/*" ] 
+        "paths": [ "/repraca/galeria/abrir-app/*" ] 
       }
     ]
   }
