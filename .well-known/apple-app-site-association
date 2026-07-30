@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "J52949JRCT.com.frpv.rePraca",
+        "paths": [ "/abrir-app/*" ] 
+      }
+    ]
+  }
+}
