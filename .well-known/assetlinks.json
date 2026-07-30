@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.frpv.rePraca",
+      "sha256_cert_fingerprints": [
+        "7B:7B:88:CA:2B:61:B9:55:0A:F4:E5:77:C2:72:D3:B2:AA:1F:54:AF:9D:8C:3F:86:F9:55:02:95:0A:32:B3:E7"
+      ]
+    }
+  }
+]
